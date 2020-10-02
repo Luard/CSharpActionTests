@@ -33,4 +33,4 @@ jobs:
         run: nuget restore WindowsForms\WindowsForms.sln
         
       - name: Build solution
-        run: msbuild WindowsForms\WindowsForms.sln
+        run: msbuild WindowsForms\WindowsForms.sln -p:Configuration=Release
