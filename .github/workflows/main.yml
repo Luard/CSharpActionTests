@@ -39,5 +39,5 @@ jobs:
         run: msbuild WindowsForms\WindowsForms.sln -p:Configuration=Release
       
       - name: Run Tests
-        run: vstest.console.exe /Platform:x64 WinfowsForms\WindowsForms_UnitTest\bin\Debug\WindowsForms_UnitTest.dll
+        run: vstest.console.exe /Platform:x64 WinfowsForms\WindowsForms_UnitTest\bin\Release\WindowsForms_UnitTest.dll
       
