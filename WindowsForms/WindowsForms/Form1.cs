@@ -25,13 +25,8 @@ namespace WindowsForms
                 return;
             }
 
-            int resultado = Suma(Int32.Parse(num1.Text), Int32.Parse(num2.Text));
+            int resultado = Operaciones.Suma(Int32.Parse(num1.Text), Int32.Parse(num2.Text));
             MessageBox.Show("La suma de los números da: " + resultado.ToString());
-        }
-
-        public int Suma(int i, int j)
-        {
-            return i + j;
         }
     }
 }
