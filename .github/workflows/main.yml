@@ -30,7 +30,7 @@ jobs:
         uses: NuGet/setup-nuget@v1.0.2
 
       - name: Restore NuGet packages
-        run: nuget restore WindowsForms/WindowsForms.sln
+        run: nuget restore WindowsForms/WindowsForms_UnitTest/WindowsForms_UnitTest.csproj
         
       - name: Build solution
-        run: build WindowsForms/WindowsForms.sln
+        run: build WindowsForms/WindowsForms_UnitTest/WindowsForms_UnitTest.csproj
