@@ -33,4 +33,4 @@ jobs:
         run: nuget restore WindowsForms\WindowsForms.sln
         
       - name: Build solution
-        run: build WindowsForms\WindowsForms_UnitTest\WindowsForms_UnitTest.csproj
+        run: build WindowsForms\WindowsForms.sln
